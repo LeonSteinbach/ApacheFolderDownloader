@@ -1,6 +1,20 @@
 # ApacheFolderDownloader
 
-A tool for downloading the whole folder structure of a public apache server.
+The ApacheFolderDownloader is a Python script for downloading entire directories from Apache web servers. It uses the Beautiful Soup library to parse the HTML of the directory and the wget library to download files.
+
+## Features
+
+The ApacheFolderDownloader can:
+
+* Download entire directories from Apache web servers
+* Recursively download subdirectories
+
+## Requirements
+
+* Python 3.x
+* Beautiful Soup 4
+* wget
+* requests
 
 ## Usage
 
